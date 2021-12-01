@@ -11,7 +11,7 @@ class A {
   }
   memberFunction() {
     console.log('-----class-----')
-    // 클래스에서 this란 자기자신을 의미
+    // 클래스에서 this란 자기자신(클래스를 가르킴)을 의미
     console.log(this)
     console.log(this === global)
   }

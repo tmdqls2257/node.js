@@ -46,5 +46,6 @@ console.log('isAbsolute?', path.isAbsolute('../'))
 console.log(path.normalize('./folder///sub'))
 
 // join
+// 운영체제 별로 구분자가 다를 수 있으니 path.sep을 써야한다.
 console.log(__dirname + path.sep + 'image')
 console.log(path.join(__dirname, 'image'))
