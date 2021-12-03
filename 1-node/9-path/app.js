@@ -6,30 +6,30 @@ console.log(__dirname)
 console.log(__filename)
 
 // 경로 구분자
-console.log('---------------------------------------')
+console.log('-----------------1----------------------')
 console.log(path.sep)
 // 환경 변수 구분자
-console.log('---------------------------------------')
+console.log('------------------2---------------------')
 console.log(path.delimiter)
 
 // basename
-console.log('---------------------------------------')
+console.log('-------------------3--------------------')
 console.log(path.basename(__filename))
 
 // 확장자를 제거함
-console.log('---------------------------------------')
+console.log('--------------------4-------------------')
 console.log(path.basename(__filename, '.js'))
 
 // dirname
-console.log('---------------------------------------')
+console.log('---------------------5------------------')
 console.log(path.dirname(__filename))
 
 // extension
-console.log('---------------------------------------')
+console.log('--------------------6-------------------')
 console.log(path.extname(__filename))
 
 // parse
-console.log('---------------------------------------')
+console.log('--------------------7-------------------')
 const parsed = path.parse(__filename)
 console.log(parsed)
 
