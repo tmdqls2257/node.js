@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\1-node\\12-stream\\app-write.js",
+      "program": "${workspaceFolder}\\node-server\\1-http.js",
       "runtimeExecutable": "node",
       "restart": true
     }
