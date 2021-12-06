@@ -5,6 +5,7 @@ import fsAsync from 'fs/promises'
 
 const app = express()
 
+// req.body를 보기 위해 선언
 app.use(express.json())
 
 app.get('/file1', (req, res) => {
