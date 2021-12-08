@@ -1,6 +1,7 @@
 import express from 'express';
 import { body, param, validationResult } from 'express-validator';
 
+// npm i express-validator
 const app = express();
 app.use(express.json());
 
