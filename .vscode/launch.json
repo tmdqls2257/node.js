@@ -9,7 +9,8 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\node-server\\1-http.js",
+      "program": "${workspaceFolder}\\7-photo\\app.js",
+      "args": ["test"],
       "runtimeExecutable": "node",
       "restart": true
     }
